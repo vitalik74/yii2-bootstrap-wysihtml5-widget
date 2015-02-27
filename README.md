@@ -29,24 +29,24 @@ And run command "composer update"
 
 USAGE
 -----
-Base usage like that:
+###Base usage like that:###
 
-```php
+`
 echo vitalik74\wysihtml5\Widget::widget([
      'options' => [
          'id' => 'test',
          'style' => 'width: 810px; height: 200px',
          'placeholder' => "Placeholder text ..."
      ],
- ]);```
+ ]);`
  
  
- In `ActiveForm` use like that:
+###In `ActiveForm` use like that:###
   
- ```php
- <?= $form->field($model, 'body')->widget(\Vitalik74\wysihtml5\Widget::className(), ['options' => [
-      'id' => 'test',
-      'style' => 'width: 810px; height: 200px',
-      'placeholder' => "Placeholder text ..."
-  ],]) ?>
-```
+ `
+     <?= $form->field($model, 'body')->widget(\Vitalik74\wysihtml5\Widget::className(), ['options' => [
+          'id' => 'test',
+          'style' => 'width: 810px; height: 200px',
+          'placeholder' => "Placeholder text ..."
+      ],]) ?>
+`

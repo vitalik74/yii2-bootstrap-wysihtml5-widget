@@ -40,7 +40,9 @@ echo vitalik74\wysihtml5\Widget::widget([
      ],
  ]);```
  
+ 
  In `ActiveForm` use like that:
+ 
  ```php
  <?= $form->field($model, 'body')->widget(\Vitalik74\wysihtml5\Widget::className(), ['options' => [
       'id' => 'test',

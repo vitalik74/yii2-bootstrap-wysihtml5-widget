@@ -5,7 +5,7 @@
  * Create date: 25.02.2015 17:35
  */
 
-namespace Vitalik74\wysihtml5\assets;
+namespace vitalik74\wysihtml5\assets;
 
 
 use yii\web\AssetBundle;

@@ -1,6 +1,6 @@
 {
-    "name": "Vitalik74/yii2-bootstrap3-wysihtml5-widget",
-    "description": "The imperavi redactor widget for Yii framework.",
+    "name": "vitalik74/yii2-bootstrap-wysihtml5-widget",
+    "description": "The simple WYSIWYG editor widget based on bootstrap3-wysihtml5 for Yii2 framework.",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "bootstrap3-wysihtml5", "wysihtml5", "wysiwyg", "widget", "wysiwyg editor", "simple wysiwyg editor", "simple editor"],
     "license": "proprietary",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vitalik74\\wysihtml5\\": ""
+            "vitalik74\\wysihtml5\\": ""
         }
     }
 }

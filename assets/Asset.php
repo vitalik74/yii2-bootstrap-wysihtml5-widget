@@ -15,7 +15,7 @@ class Asset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@Vitalik74/wysihtml5/assets';
+    public $sourcePath = '@vitalik74/wysihtml5/assets';
 
     /**
      * @inheritdoc

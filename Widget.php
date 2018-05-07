@@ -14,11 +14,11 @@ use yii\widgets\InputWidget;
 
 class Widget extends InputWidget
 {
+    public $wysiOptions = [];
+
     public function init()
     {
-        
     }
-
 
     /**
      * @inheritdoc
@@ -44,6 +44,6 @@ class Widget extends InputWidget
         $asset = Asset::register($view);
 
         //$view->registerJs("jQuery($selector).redactor($settings);");
-        $view->registerJs("$('#" . $this->options['id'] . "').wysihtml5();");
+        $view->registerJs("$('#" . $this->options['id'] . "').wysihtml5(".json_encode((object)$this->wysiOptions).");");
     }
 } 

@@ -45,5 +45,9 @@ class Widget extends InputWidget
 
         //$view->registerJs("jQuery($selector).redactor($settings);");
         $view->registerJs("$('#" . $this->options['id'] . "').wysihtml5();");
+        //Setting Deafult text for editor
+      if(!empty($this->options['value'])){
+        $view->registerJs("$('#" . $this->options['id'] . "').data('wysihtml5').editor.setValue('" . $this->options['value'] . "');");
+       }
     }
 } 

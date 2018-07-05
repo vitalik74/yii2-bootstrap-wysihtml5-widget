@@ -35,6 +35,7 @@ USAGE
 echo vitalik74\wysihtml5\Widget::widget([
      'options' => [
          'id' => 'test',
+         'value'=>'Default content',
          'style' => 'width: 810px; height: 200px',
          'placeholder' => "Placeholder text ..."
      ],
@@ -46,6 +47,7 @@ echo vitalik74\wysihtml5\Widget::widget([
  ```
  <?= $form->field($model, 'body')->widget(\vitalik74\wysihtml5\Widget::className(), ['options' => [
       'id' => 'test',
+      'value'=>'Default content',
       'style' => 'width: 810px; height: 200px',
       'placeholder' => "Placeholder text ..."
   ],]) ?>
